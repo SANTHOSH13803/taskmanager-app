@@ -1,0 +1,79 @@
+* {
+  font-family: 'Roboto';
+}
+.tags-main-container {
+  background-color: #000000;
+  flex-grow: 1;
+  padding: 20px;
+}
+.tags-main-container h1:nth-child(1) {
+  color: white;
+  font-size: 26px;
+  padding-top: 100px;
+}
+.task-heading {
+  color: white;
+  font-size: 26px;
+  margin-top: 20px;
+}
+.tags {
+  display: flex;
+  margin: 10px 0px;
+  padding: 0;
+}
+.tags li {
+  margin: 5px;
+  list-style: none;
+}
+.tags li button {
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid #f3aa4e;
+  color: white;
+  font-weight: bold;
+}
+.normal-button {
+  background-color: transparent;
+}
+.active {
+  background-color: #f3aa4e;
+}
+.no-tasks {
+  width: 100%;
+  height: 400px;
+  display: grid;
+  place-items: center;
+  color: #ffffff;
+}
+.no-tasks p {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.tasks-results {
+  padding: 0;
+}
+.tasks-results li {
+  padding: 15px;
+  border-radius: 10px;
+  margin: 15px 0px;
+  background-color: #1a171d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.tasks-results p:nth-child(1) {
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+.tasks-results p:nth-child(2) {
+  color: white;
+  background-color: #f3aa4e;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
